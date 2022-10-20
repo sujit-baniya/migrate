@@ -4,5 +4,5 @@
 package cli
 
 import (
-	_ "github.com/golang-migrate/migrate/v4/source/github_ee"
+	_ "github.com/sujit-baniya/migrate/source/github_ee"
 )

@@ -10,10 +10,10 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/sujit-baniya/migrate"
+	"github.com/sujit-baniya/migrate/database"
 )
 
 func init() {

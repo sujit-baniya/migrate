@@ -10,11 +10,11 @@ import (
 
 	_ "github.com/ClickHouse/clickhouse-go"
 	"github.com/dhui/dktest"
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database/clickhouse"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/sujit-baniya/migrate"
+	"github.com/sujit-baniya/migrate/database/clickhouse"
+	dt "github.com/sujit-baniya/migrate/database/testing"
+	"github.com/sujit-baniya/migrate/dktesting"
+	_ "github.com/sujit-baniya/migrate/source/file"
 )
 
 const defaultPort = 9000

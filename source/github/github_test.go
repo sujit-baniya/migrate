@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	st "github.com/golang-migrate/migrate/v4/source/testing"
 	"github.com/stretchr/testify/assert"
+	st "github.com/sujit-baniya/migrate/source/testing"
 )
 
 var GithubTestSecret = "" // username:token

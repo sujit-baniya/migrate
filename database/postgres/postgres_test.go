@@ -15,14 +15,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/sujit-baniya/migrate"
 
 	"github.com/dhui/dktest"
 
-	"github.com/golang-migrate/migrate/v4/database"
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/sujit-baniya/migrate/database"
+	dt "github.com/sujit-baniya/migrate/database/testing"
+	"github.com/sujit-baniya/migrate/dktesting"
+	_ "github.com/sujit-baniya/migrate/source/file"
 )
 
 const (
