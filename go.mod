@@ -32,7 +32,7 @@ require (
 	github.com/stretchr/testify v1.7.1
 	github.com/xanzy/go-gitlab v0.15.0
 	go.mongodb.org/mongo-driver v1.7.0
-	go.uber.org/atomic v1.7.0
+	go.uber.org/atomic v1.10.0
 	golang.org/x/oauth2 v0.0.0-20220630143837-2104d58473e0
 	golang.org/x/tools v0.1.12
 	google.golang.org/api v0.87.0
